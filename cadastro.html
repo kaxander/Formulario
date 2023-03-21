@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="#"">
+        <fieldset>
+            <legend>Cadastro do Produto</legend>
+
+            <label for="Itexto">Produto:</label>
+            <input type="text" id="Itexto" name="Ttexto" placeholder="Digite o nome do produto">
+
+            <br>
+
+            <label for="Idata">Data de Produto:</label>
+            <input type="date" id="Idatnasc" name="ddatnasc">
+
+            <br>
+
+            <label for="Icategoria">Categoria:</label>
+            <select name="Ccategoria" id="Icategoria">
+                <option value="L">Livros</option>
+                <option value="C" selected>Cadernos</option>
+            </select>
+
+            <br> 
+
+            <label for="Inumber">Peso (Kg):</label>
+            <input type="number" id="Inumber" name="Nnumber">
+
+            <br>
+
+            <label>Situação:</label>
+
+            <input type="radio" name="rtipo" id="itpnovo" value="U">
+            <label for="itpnovo">Novo</label>
+
+            <input type="radio" name="rtipo" id="itpusado" value="A">
+            <label for="itpusado">Usado</label>
+
+            <br>
+
+        <label for="ivoce">Descrição</label>
+
+        <br>
+
+        <textarea name="txtvoce" id="ivoce" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <label for="Ivol">Avaliação (0-10)</label>
+        <input type="range" id="Ivol" name="Avol" min="0" max="10">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
